@@ -1,0 +1,39 @@
+body { 
+	margin:0;
+	background-image: url('cdn/light-grey-terrazzo.png');
+	z-index: 99999999;
+}
+
+#container {
+	text-align:center;
+}
+
+
+#nav ul{
+	list-style-type: none;
+	padding:0px;
+	
+}
+#nav li {
+	margin:5%;
+	display:inline-block;
+}
+
+#nav a	{
+	padding: 10px;
+	display: block;
+	text-decoration: none; 
+	color: #f4511e;
+	opacity: 0.6;
+	font-weight: bold;
+	font-size:40px;
+	
+}
+#nav a:hover {
+	opacity: 1;
+}
+
+
+img {
+	height:450px;
+}
